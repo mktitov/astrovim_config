@@ -18,7 +18,8 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "astrodark",
+  -- colorscheme = "astrodark",
+  colorscheme = "zenbones",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
@@ -81,5 +82,15 @@ return {
     --     ["~/%.config/foo/.*"] = "fooscript",
     --   },
     -- }
+    vim.opt.tabstop = 2
+    vim.opt.shiftwidth = 2
+    vim.bo.shiftwidth = 2
+    vim.opt.softtabstop = 2
+    vim.opt.swapfile = false
+    vim.filetype.add {
+      extension = {
+        conf = "hocon"
+      }
+    }
   end,
 }

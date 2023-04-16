@@ -4,11 +4,19 @@ return {
     -- set to true or false etc.
     relativenumber = true, -- sets vim.opt.relativenumber
     number = true, -- sets vim.opt.number
-    spell = false, -- sets vim.opt.spell
+    spell = true, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
+    background = "light",
+    mouse = "",
+    spelllang = "en_us",
+    shiftwidth = 2,
+    tabstop = 2,
+    softtabstop = 2,
+    swapfile = false
   },
   g = {
+    noswapfile = "",
     mapleader = " ", -- sets vim.g.mapleader
     autoformat_enabled = true, -- enable or disable auto formatting at start (lsp.formatting.format_on_save must be enabled)
     cmp_enabled = true, -- enable completion at start

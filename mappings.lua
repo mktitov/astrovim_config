@@ -20,6 +20,13 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+      -- fugitive configuration 
+    ["<leader>gs"] = { ":G<cr>", desc = "Fugitive git status" },
+    ["<leader>gb"] = { ":Git blame<cr>", desc = "Fugitive git blame" },
+    -- buffer
+    ["<leader><tab>"] = { ":b#<cr>", desc = "Previous Buffer" },
+    -- windows
+    ["<tab>"] = { "<c-w>w", desc = "Next window" },
   },
   t = {
     -- setting a mapping to false will disable it
