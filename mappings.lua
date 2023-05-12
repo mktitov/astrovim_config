@@ -21,6 +21,8 @@ return {
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
       -- fugitive configuration 
+    ["f]"] = { "<cmd>Hi><cr>", desc = "Find next selected word" },
+    ["f["] = { "<cmd>Hi<<cr>", desc = "Find previous selected word" },
     ["<leader>gs"] = { ":G<cr>", desc = "Fugitive git status" },
     ["<leader>gb"] = { ":Git blame<cr>", desc = "Fugitive git blame" },
     -- buffer
