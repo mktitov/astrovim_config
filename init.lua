@@ -82,10 +82,10 @@ return {
     --     ["~/%.config/foo/.*"] = "fooscript",
     --   },
     -- }
-    vim.opt.tabstop = 2
-    vim.opt.shiftwidth = 2
-    vim.bo.shiftwidth = 2
-    vim.opt.softtabstop = 2
+    -- vim.opt.tabstop = 2
+    -- vim.opt.shiftwidth = 2
+    -- vim.bo.shiftwidth = 2
+    -- vim.opt.softtabstop = 2
     vim.opt.swapfile = false
     vim.filetype.add {
       extension = {

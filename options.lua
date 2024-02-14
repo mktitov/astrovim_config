@@ -10,12 +10,15 @@ return {
     background = "light",
     mouse = "",
     spelllang = "en_us",
-    shiftwidth = 2,
-    tabstop = 2,
-    softtabstop = 2,
-    swapfile = false
+    -- shiftwidth = 2,
+    -- tabstop = 2,
+    -- softtabstop = 2,
+    swapfile = false,
+    scrolloff = 10,
+    sidescrolloff = 10
   },
   g = {
+    nomodeline = true,
     noswapfile = "",
     mapleader = " ", -- sets vim.g.mapleader
     autoformat_enabled = true, -- enable or disable auto formatting at start (lsp.formatting.format_on_save must be enabled)
